@@ -1,0 +1,238 @@
+@import "./../../../../variables.scss";
+
+.contact{
+
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100vh;
+    display: table;
+
+    .container{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .contact-title{
+
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        white-space: nowrap;
+        font-size: 60px;
+        font-weight: 600;
+        color: $LightestSlate;
+        margin: auto;
+        width: fit-content;
+    }
+    .contact-pre-title{
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 10px 0 40px;
+        width: 100%;
+        white-space: nowrap;
+        font-size: 32px;
+        display: block;
+        color: $Green;
+        font-size: 16px;
+        font-family: $CodeFont;
+        font-weight: normal;
+        margin-bottom: 20px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+.bloc9 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30%;
+    margin-left: 5%;
+    align-items: center; /* Centering vertically */
+  }
+  
+  .flex-container-part1-bloc9 {
+    padding-left: 30px; /* Smaller space */
+    color: #effcfd;
+  }
+  
+ 
+  .flex-container-part2-bloc9 {
+    border: 1px solid #FFF205;
+    background-color: transparent;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  
+  .form1-bloc9 {
+    background-image: linear-gradient(to right, #0a192f, #303C55, #808cf8, #f7f299, #f3ec61, #FFF205); /* Colorful gradient */
+    border: 2px solid #294c4e;
+    width: 160%;
+    padding: 30px;
+    /* margin: 20px; */
+    border-radius: 5px;
+  }
+  
+  .form1-bloc9-input1,
+  .form1-bloc9-input2 {
+    margin-bottom: 10px;
+  }
+  
+  
+.form1-bloc9 label {
+    color: aliceblue;
+    }
+    
+.bn5 {
+    font-family: $CodeFont;
+    font-weight: normal;
+      padding: 0.6em 2em;
+      border: none;
+      outline: none;
+      color: #FFF205;
+      background: transparent !important;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+      border-radius: 1px;
+    }
+    
+.bn5:before {
+      content: "";
+      background: linear-gradient(
+        45deg,
+        #ff0000,
+        #ff7300,
+        #fffb00,
+        #48ff00,
+        #00ffd5,
+        #002bff,
+        #7a00ff,
+        #ff00c8,
+        #ff0000
+      );
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      animation: glowingbn5 20s linear infinite;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      border-radius: 1px;
+    }
+    
+@keyframes glowingbn5 {
+      0% {
+        background-position: 0 0;
+      }
+      50% {
+        background-position: 400% 0;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    }
+    
+.bn5:active {
+      color: #112240;
+      font-weight: 900;
+    }
+    
+.bn5:active:after {
+      background: transparent;
+    }
+    
+.bn5:hover:before {
+      opacity: 1;
+    }
+    
+.bn5:after {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #112240;
+      left: 0;
+      top: 0;
+      border-radius: 2px;
+    }
+    /* Style for the delete icon */
+.delete-icon {
+      font-size: 18px; /* Adjust the size as needed */
+      cursor: pointer;
+    }
+    
+    /* Style for the delete button */
+.delete-button {
+      display: none;
+    }
+    
+    /* Apply styles when hovering over the table row */
+tr:hover .delete-icon {
+      display: none;
+    }
+    
+tr:hover .delete-button {
+      display: inline-block;
+    }
+    
+    
+    @media (max-width: 768px){
+      .section{
+        display: flex;
+      }
+     
+        .contact{
+            height: 100vh;
+            padding: 0 !important;
+            margin: 0 auto !important;
+            display: table;
+    
+            .container{
+                display: flex;
+                vertical-align: middle;
+            }
+        }
+        .bloc9 {
+          margin-bottom: 15%;
+          margin-top: 5px; /* Change the margin-top value for smaller screens */
+          justify-content: center; /* Centering vertically */
+          flex-direction: column; /* Stack items vertically on smaller screens */
+          align-items: center; /* Center items horizontally */
+        }
+           
+        .flex-container-part2-bloc9 {
+          border: 1px solid #FFF205;
+          background-color: transparent;
+          margin: 5px; /* Adjust margin for smaller screens */
+          padding: 5px;
+          border-radius: 5px;
+          width: 50% ;
+        }
+    }

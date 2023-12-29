@@ -1,0 +1,43 @@
+<section class="section contact" id='contact'>
+    <div class="container">
+        <div class="section-box">
+            <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="contact-pre-title big-subtitle">05. What’s Next</h3>
+                <h4 class="e-font contact-title big-title">
+                    Get in touch!
+                </h4>
+            </div>
+            <p data-aos="fade-up" data-aos-duration="1000">
+                I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.
+            </p>
+            
+        </div>
+    </div>
+<!--  -->
+
+    
+        
+    <div class="bloc9">
+
+    <div class="flex-container-part2-bloc9">
+        <form class="form1-bloc9" (ngSubmit)="onSubmit()" [formGroup]="contactForm">
+            <div class="form1-bloc9-input1">
+              
+          <input type="text" class="form-control" placeholder="name" id="name" formControlName="name">
+            </div>
+            <div class="form1-bloc9-input2">
+              
+          <input type="email" class="form-control" placeholder="email" id="email" formControlName="email">
+            </div>
+            <div>
+              
+              <textarea id="message" class="form-control" placeholder="message..." formControlName="message" rows="4"></textarea>
+              <hr>
+              <button class="bn5" type="submit" [disabled]="!contactForm.valid">Send Message</button>
+        </div>
+        </form>
+    </div></div>
+    
+    
+<!--  -->
+</section>
