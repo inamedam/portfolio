@@ -25,8 +25,8 @@ export class ProyectsComponent implements OnInit {
     {
       imgs:[
         
-        '../../../../assets/images/todo-app/2.png',
-        '../../../../assets/images/todo-app/3.png',
+        'assets/images/todo-app/2.png',
+        'assets/images/todo-app/3.png',
         '../../../../assets/images/todo-app/4.png',
         '../../../../assets/images/todo-app/5.png',
         '../../../../assets/images/todo-app/6.png',
