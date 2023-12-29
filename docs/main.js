@@ -332,8 +332,8 @@ class HeaderComponent {
         this.analyticsService = analyticsService;
         this.responsiveMenuVisible = false;
         this.languageFormControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__.FormControl();
-        this.cvName = "lastCv.pdf";
-        this.ResumeName = "Loay-elden-gamal -resume.pdf";
+        this.cvName = "CV_inaoui_fullStack.pdf";
+        this.ResumeName = "CV_inaoui_fullStack.pdf";
     }
     ngOnInit() {
     }
