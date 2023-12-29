@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+	<title>folder-svg</title>
+	<defs>
+		<image  width="60" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAyAQMAAAA6OCpBAAAAAXNSR0IB2cksfwAAAAZQTFRFZP/a//8AmDOjbQAAAAJ0Uk5TAP9bkSK1AAAAl0lEQVR4nJXQvQ2DQAwFYCMKGpQJomSNFEisxAZ3oxlRpMsEEboRrqRAcXwP7ockTV71Fbb0bDKyEiLyipANTE2C3VHzjipB55eAsLgCJkLT/ourhDjiHvAFBgwNv+AAlzEClYKPYJoAvWTCVbXNuGO7SaCMB3AqMAMXoidwLrAAXcTtC1rcH+FD6637B7Q74QXCBQxg6Q2CsnPVXJuvsgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="5"/>
+</svg>
