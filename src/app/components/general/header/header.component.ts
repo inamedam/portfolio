@@ -46,7 +46,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
 
    
-
+    
   }
 
   scroll(el) {
@@ -59,31 +59,21 @@ export class HeaderComponent implements OnInit {
   }
 
   downloadCV(){
-   
-     
-     
       // app url
       let url = window.location.href;
       console.log(url,this.cvName)
 
       // Open a new window with the CV
       window.open(url + "/../assets/cv/" + this.cvName, "_blank");
-   
-
   }
   
   downloadResume(){
-   
-     
-     
     // app url
     let url = window.location.href;
     console.log(url,this.ResumeName)
 
     // Open a new window with the CV
     window.open(url + "/../assets/cv/" + this.ResumeName, "_blank");
- 
-
 }
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])
