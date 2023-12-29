@@ -11,7 +11,7 @@ export class ProyectsComponent implements OnInit {
   Projects = [
     {
       imgs:[
-        '../../../../../docs/assets/images/medmatch/bloc4.png',
+        'https://github.com/inamedam/portfolio/blob/main/src/assets/images/medmatch/bloc4.png',
         '../../../../../docs/assets/images/medmatch/bloc5.png',
         '../../../../../docs/assets/images/medmatch/bloc6.png',
         '../../../../../docs/assets/images/medmatch/bloc10.png'],
