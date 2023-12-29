@@ -11,10 +11,10 @@ export class ProyectsComponent implements OnInit {
   Projects = [
     {
       imgs:[
-        '../../../../assets/images/medmatch/bloc4.png',
-        '../../../../assets/images/medmatch/bloc5.png',
-        '../../../../assets/images/medmatch/bloc6.png',
-        '../../../../assets/images/medmatch/bloc10.png'],
+        'assets/images/medmatch/bloc4.png',
+        'assets/images/medmatch/bloc5.png',
+        'assets/images/medmatch/bloc6.png',
+        'assets/images/medmatch/bloc10.png'],
       Title:'Ark-x Challenges',
       Description:'The purpose of this project is to enhance the safety of prescribing drugs and to address the challenges related to prescribing errors which can have significant damage the patient’s health, the project ultimate goal is to contribute to the overall improvement of medication safety in the healthcare department.',
       Technologies:['HTML','CSS'],
